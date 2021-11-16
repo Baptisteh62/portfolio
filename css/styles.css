@@ -11425,6 +11425,7 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
 }
+
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
@@ -11432,4 +11433,19 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.limage-responsive{
+    border: 10px solid #8999a9;
+}
+
+/*991.98px pour le responsive*/
+.photo-de-profil-responsive{
+    display: none !important;
+}
+
+@media (max-width: 991px) {
+    .photo-de-profil-responsive {
+        display: block !important;
+    }
 }
